@@ -17,4 +17,9 @@ body {
 	font-family: 'Outfit', sans-serif;
 	width: 100%;
 	min-height: 100vh;
+	display: grid;
+	grid: 1fr min-content / 1fr;
+	row-gap: 7.5rem;
+	place-items: center;
+	padding: 8.5rem 2.8rem;
 }
