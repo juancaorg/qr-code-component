@@ -1,0 +1,8 @@
+:root, * {
+	box-sizing: border-box;
+}
+
+:root {
+	/* By default, 1rem = 16px. By using this, 1rem = 10px*/
+	font-size: 62.5%;
+}
