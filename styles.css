@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 :root, * {
 	box-sizing: border-box;
 }
@@ -5,4 +7,14 @@
 :root {
 	/* By default, 1rem = 16px. By using this, 1rem = 10px*/
 	font-size: 62.5%;
+	--white: hsl(0, 0, 100%);
+	--light-gray: hsl(212, 45%, 89%);
+	--grayish-blue: hsl(220, 15%, 55%);
+	--dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+	width: 100%;
+	min-height: 100vh;
 }
