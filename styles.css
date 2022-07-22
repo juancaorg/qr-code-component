@@ -62,11 +62,13 @@ body {
 	line-height: 1.8rem;
 	margin-top: -1.2rem;
 	color: var(--grayish-blue);
+	padding-inline: 1.6rem;
 }
 
 .attribution {
 	font-size: 1.3rem;
 	font-weight: 400;
+	text-align: center;
 }
 
 .attribution a {
