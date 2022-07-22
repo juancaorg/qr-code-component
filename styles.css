@@ -11,6 +11,7 @@
 	--light-gray: hsl(212, 45%, 89%);
 	--grayish-blue: hsl(220, 15%, 55%);
 	--dark-blue: hsl(218, 44%, 22%);
+	--brandeis-blue: hsl(212, 95%, 48%);
 }
 
 body {
@@ -65,4 +66,17 @@ body {
 	line-height: 1.8rem;
 	margin-top: -1.2rem;
 	color: var(--grayish-blue);
+}
+
+.attribution {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.attribution a {
+	text-decoration: none;
+}
+
+.attribution a:hover {
+	color: var(--brandeis-blue);
 }
