@@ -31,7 +31,7 @@ body {
 	background: var(--white);
 	max-width: 32rem;
 	height: auto;
-	padding: 1.6rem 1.6rem 4rem 1.6rem;
+	padding: 1.6rem 1.5rem 3.2rem;
 	border-radius: 2rem;
 	box-shadow: 0 2.5rem 2.5rem rgba(0, 0, 0, 0.4765);
 }
