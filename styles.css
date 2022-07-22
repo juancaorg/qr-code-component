@@ -7,7 +7,7 @@
 :root {
 	/* By default, 1rem = 16px. By using this, 1rem = 10px*/
 	font-size: 62.5%;
-	--white: hsl(0, 0, 100%);
+	--white: hsl(0, 0%, 100%);
 	--light-gray: hsl(212, 45%, 89%);
 	--grayish-blue: hsl(220, 15%, 55%);
 	--dark-blue: hsl(218, 44%, 22%);
@@ -23,4 +23,14 @@ body {
 	row-gap: 7.5rem;
 	place-items: center;
 	padding: 8.5rem 2.8rem;
+}
+
+.card {
+	/* width: 100%;	*/
+	/* The card should not be wider than 320 px */
+	background: var(--white);
+	max-width: 32rem;
+	height: auto;
+	padding: 1.6rem 1.6rem 4rem 1.6rem;
+	border-radius: 2rem;
 }
