@@ -17,8 +17,6 @@
 body {
 	font-family: 'Outfit', sans-serif;
 	background: var(--light-gray);
-	/*width: 100%;*/
-	/*min-height: 100vh;*/
 	display: grid;
 	grid: 1fr min-content / 1fr;
 	row-gap: 7.5rem;
@@ -27,7 +25,6 @@ body {
 }
 
 .card {
-	/* width: 100%;	*/
 	/* The card should not be wider than 320 px */
 	background: var(--white);
 	max-width: 32rem;
