@@ -34,7 +34,17 @@ body {
 	padding: 1.6rem 1.6rem 4rem 1.6rem;
 	border-radius: 2rem;
 	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.4765);
+}
+
+.card__img {
+	width: 28.6rem;
+	border-radius: 1rem;
+}
+
+.card__text {
 	display: flex;
-	flex-flow: columnd nowrap;
-	gap: 2.4rem;
+	flex-flow: column nowrap;
+	gap: 1.6rem;
+	text-align: center;
+	align-items: center;
 }
