@@ -2,80 +2,80 @@
 
 :root,
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-	/* By default, 1rem = 16px. By using this, 1rem = 10px*/
-	font-size: 62.5%;
-	--white: hsl(0, 0%, 100%);
-	--light-gray: hsl(212, 45%, 89%);
-	--grayish-blue: hsl(220, 15%, 55%);
-	--dark-blue: hsl(218, 44%, 22%);
-	--brandeis-blue: hsl(212, 95%, 48%);
+  /* By default, 1rem = 16px. By using this, 1rem = 10px*/
+  font-size: 62.5%;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --brandeis-blue: hsl(212, 95%, 48%);
 }
 
 body {
-	font-family: "Outfit", sans-serif;
-	background: var(--light-gray);
-	display: grid;
-	grid: 1fr min-content / 1fr;
-	row-gap: 7.5rem;
-	place-items: center;
-	padding: 18rem 2.8rem;
+  font-family: "Outfit", sans-serif;
+  background: var(--light-gray);
+  display: grid;
+  grid: 1fr min-content / 1fr;
+  row-gap: 7.5rem;
+  place-items: center;
+  padding: 18rem 2.8rem;
 }
 
 .card {
-	/* The card should not be wider than 320 px */
-	background: var(--white);
-	max-width: 32rem;
-	height: auto;
-	padding: 1.6rem 1.7rem 3.2rem;
-	border-radius: 2rem;
+  /* The card should not be wider than 320 px */
+  background: var(--white);
+  max-width: 32rem;
+  height: auto;
+  padding: 1.6rem 1.7rem 3.2rem;
+  border-radius: 2rem;
 }
 
 .card__img {
-	width: 28.6rem;
-	border-radius: 1rem;
+  width: 28.6rem;
+  border-radius: 1rem;
 }
 
 .card__text {
-	display: flex;
-	flex-flow: column nowrap;
-	gap: 1.6rem;
-	text-align: center;
-	align-items: center;
-	padding-inline: 1.6rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.6rem;
+  text-align: center;
+  align-items: center;
+  padding-inline: 1.6rem;
 }
 
 .card__heading {
-	font-size: 2.2rem;
-	font-weight: 700;
-	line-height: 2.8rem;
-	padding-top: 0.5rem;
-	color: var(--dark-blue);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  padding-top: 0.5rem;
+  color: var(--dark-blue);
 }
 
 .card__detail {
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: -0.019rem;
-	line-height: 1.8rem;
-	margin-top: -1.2rem;
-	color: var(--grayish-blue);
-	padding-inline: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.019rem;
+  line-height: 1.8rem;
+  margin-top: -1.2rem;
+  color: var(--grayish-blue);
+  padding-inline: 1.6rem;
 }
 
 .attribution {
-	font-size: 1.3rem;
-	font-weight: 400;
-	text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .attribution a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .attribution a:hover {
-	color: var(--brandeis-blue);
+  color: var(--brandeis-blue);
 }
