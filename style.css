@@ -26,7 +26,7 @@ body {
   /* The card should not be wider than 320 px */
   background: var(--white);
   max-width: 32rem;
-  margin: 20rem auto 20rem;
+  margin: 18rem auto 20rem;
   padding: 1.6rem 1.7rem 3.2rem;
   border-radius: 2rem;
 }
