@@ -18,18 +18,15 @@
 body {
   font-family: "Outfit", sans-serif;
   background: var(--light-gray);
-  display: grid;
-  grid: 1fr min-content / 1fr;
-  row-gap: 7.5rem;
-  place-items: center;
-  padding: 18rem 2.8rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
   /* The card should not be wider than 320 px */
   background: var(--white);
   max-width: 32rem;
-  height: auto;
+  margin: 20rem auto 20rem;
   padding: 1.6rem 1.7rem 3.2rem;
   border-radius: 2rem;
 }
@@ -41,7 +38,7 @@ body {
 
 .card__text {
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   gap: 1.6rem;
   text-align: center;
   align-items: center;
