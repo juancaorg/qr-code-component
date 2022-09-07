@@ -29,6 +29,7 @@ body {
   max-width: 32rem;
   margin: 18rem auto 20rem;
   padding: 1.6rem 1.7rem 3.2rem;
+  box-shadow: 0 20px 25px hsl(210, 23%, 83%);
 }
 
 .card__img {
