@@ -19,9 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/juancaorg/qr-code-component)
-- Live Site URL: [qrcodecomponent
-.juanca.dev](https://qrcodecomponent
-.juanca.dev)
+- Live Site URL: [qrcodecomponent.juanca.dev](https://qrcodecomponent.juanca.dev)
 
 ## Built with
 
