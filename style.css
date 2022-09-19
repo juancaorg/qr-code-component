@@ -25,12 +25,12 @@ body {
 
 .card {
   /* The card should not be wider than 320 px */
-  background: var(--white);
+  background-color: var(--white);
   border-radius: 2rem;
   max-width: 32rem;
   margin: auto;
   padding: 1.6rem 1.7rem 3.2rem;
-  box-shadow: 0 20px 25px hsl(210, 23%, 83%);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
 }
 
 .card__img {
